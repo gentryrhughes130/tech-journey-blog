@@ -10,20 +10,17 @@ TODO:  Change these things along with:
   - favicon.ico in /public
  */
 const font = Karla({ weight: '400', subsets: ['latin']})
-const title = 'Gentry\'s Site';
-const description = 'This my personal site';
+const title = 'The Des Moines Cyclist';
+const description = 'A personal space for bike rides, GoPro footage, and mapped routes for riders in Des Moines.';
 const links = [
-  {title: 'Pokemon', href: '/pokemon'},
-  {title: 'Rick and Morty', href: '/rick-and-morty'}
+  { href: 'https://thedesmoinescyclist.bike', title: 'Visit Site' },
 ];
 const SocialLinks = {
-  twitter: 'https://x.com/dunscombe_luke',
-  github: '#github',
-  instagram: '#insta',
-  email: 'mailto:ldunscombe@leantechniques.com'
+  email: 'mailto:hello@thedesmoinescyclist.bike'
 }
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://thedesmoinescyclist.bike'),
   title,
   description,
   icons: {

@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background:
+        radial-gradient(circle at top left, rgba(99, 102, 241, 0.16), transparent 28%),
+        linear-gradient(135deg, #0f172a 0%, #111827 100%);
+    color: #f8fafc;
+}
+
+::selection {
+    background: rgba(167, 139, 250, 0.35);
+    color: white;
+}
 
 .sprite:hover {
     animation: hop 300ms infinite;
